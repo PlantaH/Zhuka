@@ -309,7 +309,7 @@ body a:hover{
 	margin:0;
 }
 .timings-info p{
-	color: #000000;
+	color: #D28F3B;
     font-size: 1.5em;
 	margin:1em 0;
 	font-family: 'Oswald', sans-serif;
@@ -325,7 +325,7 @@ body a:hover{
 	margin:0 0 .5em;
 }
 .timings-info h3{
-	color: #000000;
+	color: #D28F3B;
 	margin:0 0 1em;
 }
 .m1 a{
@@ -355,7 +355,7 @@ p.nulla{
 }
 .get-in-grid-left p {
     font-size: 1.5em;
-    color: #000000;
+    color: #D28F3B;
     font-family: 'Oswald', sans-serif;
     margin: 11px 0 0;
     font-weight: 300;
@@ -429,7 +429,7 @@ p.nulla{
 }
 .event-grid-bottom-left{
 	padding:1em;
-	background:#000000;
+	background:#D28F3B;
 	text-align:center;
 }
 .event-grid-bottom-left h4{
@@ -452,7 +452,7 @@ p.nulla{
 	color:#000;
 }
 .event-grid-bottom-right h4 a:hover{
-	color:#000000;
+	color:#d28f3b;
 }
 .event-grid-bottom-right p{
 	color:#999;
@@ -508,7 +508,7 @@ ul.wmuSliderPagination {
 	-o-border-radius: 3px;
 }
 .wmuSliderPagination a.wmuActive {
-	background:#000000;
+	background:#D28F3B;
 }
 /* Default Skin */
 .wmuGallery .wmuGalleryImage {
@@ -551,7 +551,7 @@ ul.wmuSliderPagination {
   color: #fff;
 }
 .footer-grids h4 a {
-    color:#000000;
+    color:#D28F3B;
     font-size:2.3em;
     text-decoration: none;
 }
@@ -572,7 +572,7 @@ ul.wmuSliderPagination {
 	font-size: 14px;
 }
 .footer-bottom p a{
-	color:#000000;
+	color:#D28F3B;
 }
 .footer-bottom p a:hover{
 	color: #868686;
@@ -720,7 +720,7 @@ li.list-group-item1 {
 }
 .grid_5 h3, .grid_5 h2, .grid_5 h1, .grid_5 h4, .grid_5 h5, h3.hdg, h3.bars {
 	margin-bottom: 1em;
-    color: #000000;
+    color: #D28F3B;
 }
 .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
   border-top: none !important;
@@ -964,11 +964,11 @@ h2.typoh2{
 	color:#000;
 }
 .blog-left-grid h3 a:hover{
-	color:#000000;
+	color:#d28f3b;
 }
 .blog-left-grid h4{
 	font-size:1em;
-	color:#000000;
+	color:#d28f3b;
 	margin:1em 0 2em;
 }
 .blog-left-grid h4 span{	
@@ -986,13 +986,13 @@ h2.typoh2{
 .blog-left-grid ul li{
 	display:inline-block;
 	font-size:1em;
-	color:#000000;
+	color:#d28f3b;
 	margin:0 3em 0 2em;
 	font-weight:300;
 	font-family: 'Oswald', sans-serif;
 }
 .blog-left-grid ul li a{
-	color:#000000;
+	color:#d28f3b;
 	text-decoration:none;
 }
 .blog-left-grid ul li span{
@@ -1208,7 +1208,7 @@ h2.typoh2{
   color: #555555;
 }
 .cmnt-icon-right  p a{
-	color: #000000;
+	color: #D28F3B;
     font-size: 1.2em;
     font-weight: 300;
     display: block;
@@ -1311,7 +1311,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 }
 .response-text-left h5 a {
     text-decoration: none;
-	color: #000000;
+	color: #D28F3B;
     font-weight: 300;
 }
 .response-text-left h5 a:hover {
@@ -1456,7 +1456,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 	margin:3em 0 0;
 }
 .team-grid h4{
-	color: #000000;
+	color: #D28F3B;
     font-weight: 300;
     font-size: 1.3em;
     margin: 1em 0;
@@ -1741,7 +1741,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 	.navbar-nav {
 		float: none;
 		text-align: center;
-		background-color: #986019;
+		background-color: #000000;
 		padding:1em 0;
 	}
 	.navbar-nav {
