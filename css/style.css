@@ -1516,7 +1516,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 }
 @media (max-width: 1024px){
 	.banner {
-		/*background: url(../images/banner.jpg) no-repeat -230px 0px;1*/
+		/*background: url(../images/banner.jpg) no-repeat -230px 0px;*/
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
