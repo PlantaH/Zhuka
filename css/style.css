@@ -18,6 +18,10 @@ ul,label{
 body a:hover{
 	text-decoration:none;
 }
+.principal{
+	background-color: black; 
+	height: 120px;
+}
 /*-- header-nav --*/
 .navbar-nav{
 	padding:1em 0 0;
@@ -1729,6 +1733,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 		background-color:black ;
 		opacity: .8;
 		padding:1em 0;
+		width: 100%;
 	}
 	.navbar-nav {
 		margin: 0;
