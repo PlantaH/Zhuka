@@ -1516,7 +1516,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 }
 @media (max-width: 1024px){
 	.banner {
-		background: url(../images/banner.jpg) no-repeat -230px 0px;
+		/*background: url(../images/banner.jpg) no-repeat -230px 0px;1*/
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -1548,15 +1548,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 		font-size: 1.3em;
 		line-height: 1.5em;
 	}
-	.banner1 {
-		min-height: 450px;
-		background: url(../images/banner1.jpg) no-repeat -115px 0px;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		-ms-background-size: cover;
-	}
+	
 	.banner-info1 {
 		margin: 6em 0 0;
 	}
@@ -1590,7 +1582,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 		font-size: 2.5em;
 	}
 	.banner {
-		background: url(../images/banner.jpg) no-repeat -380px 0px;
+		/*background: url(../images/banner.jpg) no-repeat -380px 0px;*/
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -1679,14 +1671,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 	.footer {
 		padding: 3em 0 2em;
 	}
-	.banner1 {
-		background: url(../images/banner1.jpg) no-repeat -280px 0px;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		-ms-background-size: cover;
-	}
+	 
 	.banner-info1 p {
 		width: 71%;
 	}
@@ -1763,7 +1748,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 		margin: 20em 0 0;
 	}
 	.banner {
-		background: url(../images/banner.jpg) no-repeat -318px 0px;
+		/*background: url(../images/banner.jpg) no-repeat -318px 0px;*/
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -1796,14 +1781,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 	.wmuSliderPagination {
 		right: 43%;
 	}
-	.banner1 {
-		background: url(../images/banner1.jpg) no-repeat -355px 0px;
-		background-size: cover;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		-ms-background-size: cover;
-	}
+	 
 	.team-grid h4 {
 		margin: 1em 0 0.5em;
 	}
@@ -1834,7 +1812,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 		margin: 15em 0 0;
 	}
 	.banner {
-		background: url(../images/banner.jpg) no-repeat -246px 0px;
+		/*background: url(../images/banner.jpg) no-repeat -246px 0px;*/
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -1861,7 +1839,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 		margin: 17em 0 0;
 	}
 	.banner {
-		background: url(../images/banner.jpg) no-repeat -301px 0px;
+		/*background: url(../images/banner.jpg) no-repeat -301px 0px;*/
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -1949,9 +1927,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 	.banner-info1 p {
 		width: 100%;
 	}
-	.banner1 {
-		min-height: 400px;
-	}
+	 
 	.about-grid-left h3, .testimonials-info h3, .team h3 {
 		font-size: 1.5em;
 	}
@@ -2067,7 +2043,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 		font-size: 1.2em;
 	}
 	.banner {
-		background: url(../images/banner.jpg) no-repeat -280px 0px;
+		/*background: url(../images/banner.jpg) no-repeat -280px 0px;*/
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -2088,7 +2064,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 		margin: 12em 0 0;
 	}
 	.banner {
-		background: url(../images/banner.jpg) no-repeat -221px 0px;
+		/*background: url(../images/banner.jpg) no-repeat -221px 0px;*/
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -2249,9 +2225,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 	.banner-info1 {
 		margin: 2em 0 0;
 	}
-	.banner1 {
-		min-height: 350px;
-	}
+	 
 	.banner-info1 p {
 		margin: 0.5em 0 1em;
 		font-size: 13px;
