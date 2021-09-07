@@ -65,7 +65,7 @@ body a:hover{
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
-	min-height:800px;
+	min-height:400px;
 }
 .banner1{
 	background:url(../images/banner1.jpg) no-repeat 0px 0px;
@@ -1493,7 +1493,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		-ms-background-size: cover;
-		min-height: 760px;
+		 
 	}
 }
 @media (max-width:1366px){
@@ -2073,7 +2073,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		-ms-background-size: cover;
-		min-height: 540px;
+		min-height: 400px;
 	}
 }
 @media (max-width:320px){
