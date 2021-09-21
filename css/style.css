@@ -1468,7 +1468,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 	}
 }
 
-@media (max-width:800px){
+@media (max-width:767px){
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 		background: none;
 	}
@@ -1504,7 +1504,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 	}
 
 	#footerGr{
-		display: none;
+		display: none  !important;
 	}
 
 	#footerMo{
