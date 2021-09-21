@@ -45,8 +45,9 @@
 		});
 	</script>
 	<!-- start-smoth-scrolling -->
-	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
-	<link href='//fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 
 	<link rel="stylesheet" href="css/fontawesome.css">
 
@@ -54,7 +55,6 @@
 	
 <body>
 <!-- PRINCIPAL -->
-
 	<div class="principal">
 		<div class="container" >
 			<div class="header-nav">
@@ -67,79 +67,59 @@
 						<span class="icon-bar"></span>
 					  </button>
 						<div class="logo">
-							<a class="navbar-brand" href="index.html"><img src="images/logoZhuka.jpg"></a>
+							<a class="navbar-brand" href="index.html"><img src="imagenes/logo-sin-fondo.png" width="180px" height="220px"></a>
 						</div>
 					</div>
  
-					<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					<div class="collapse navbar-collapse nav-wil" style="margin-top: 4rem;" >
 						<ul class="nav navbar-nav cl-effect-14">
-							<li class="active"><a href="index.html" class="active">Inicio</a></li>
-							<li><a href="#an_nosotros">Nosotros</a></li>
-							<li><a href="#an_productos">Productos</a></li>
-							<li><a href="#an_contacto">Contacto</a></li>
+							<li class="active"><a href="index.html" class="active">INICIO</a></li>
+							<li><a href="#an_nosotros">NOSOTROS</a></li>
+							<li><a href="#an_productos">PRODUCTOS</a></li>
+							<li><a href="#an_contacto">CONTACTO</a></li>
+							<li><input type="text" name="search" id="search" /></li>
 						</ul>
 					</div> 
 				</nav>
 			</div>			 
 		</div>
 	</div>
-	<div class="banner"></div>
+	<div>
+		<div class="container" style="position: relative;" >
+			<div class="full_width_banner1"></div>
+			<div class="subtext_banner1">IMPRESI&Oacute;N DIGITAL</div>
+			<div class="text_banner1">Estampamos tus prendas con diseños perzonalizados <div class="link_banner1"><label class="label_banner1">CONSULTAR</label></div></div>			
+		</div>
+	</div>		
 <!-- //PRINCIPAL -->
 
 <!-- NOSOTROS -->
 <a name="an_nosotros">
-	<div class="about">
+	<div class="about" > 
 		<div class="container">
-			<div class="about-grid">
-				<div class="col-md-6 about-grid-left">
-					<h3>Quienes somos</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem rerum voluptatibus, dicta inventore aut sint at odio, temporibus commodi quas deleniti! Laboriosam ipsam sint officiis voluptate sequi perspiciatis a maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel expedita iure fugiat hic quisquam illum labore odit, laborum beatae esse aliquid, deleniti et sapiente odio sint! Culpa delectus labore tenetur! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis ullam ducimus quia qui fugiat laborum veritatis officiis quo perspiciatis reiciendis veniam neque maiores et, ea aspernatur perferendis velit exercitationem asperiores.</p>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus eligendi voluptatibus accusantium, dolorem ea ab quasi officiis quis alias delectus. Nihil dignissimos minus vel harum dicta non illum repellat expedita.
-					Minima magnam dolores fugit corrupti saepe architecto numquam? Error soluta blanditiis, animi et neque autem esse! Delectus nostrum quo aliquid quis? Pariatur laudantium placeat impedit culpa eius officia natus reprehenderit.
-					In laudantium sed assumenda, doloremque deleniti id excepturi ut. Tempore quis, dolore voluptates asperiores facilis corporis consequuntur quisquam numquam sapiente itaque in est, ipsum rem impedit, ratione aut! Dolore, iusto?</p>
+			<div class="about-grid" > 
+				<div class="col-md-6 about-grid-left"> 
+					<div class="titulo_q">¿Quienes somos?</div>
+					<p>“Zhuka” en la tradición budista se usa para describir el tipo más profundo de Felicidad.</p>
+					<p>Es la certeza que nos permite decir:<br>«No importa lo que la vida me presente, puedo lidiar con eso».</p>
+					<p>Cuando esa confianza está ahí, nos sentimos increíblemente bien!</p>
+					<p>Eso buscamos con este emprendimiento familiar, dar la confianza con nuestra ropa  y acompañar a nuestros clientes en la búsqueda del diseño correcto para su prenda.</p>
+					<p>También contamos con diseños exclusivos!</p>
 				 
 				</div>
 				<div class="col-md-6 about-grid-right">
-					<img src="images/quienes.jpg" alt="" class="img-responsive" />
+					<img src="imagenes/remera_dale una mas.jpg" alt="" class="img-responsive" />
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
 </a>	
+
 <!-- //NOSOTROS -->
 
 <!-- PRODUCTOS -->
 <a name="an_productos">
-	<div class="banner-bottom">	
-		<div class="container">
-			<div class="about-grid">
-				<div class="col-md-12 about-grid-left">
-					<h3>Diseños <span>exclusivos</span></h3>
-				</div>			 
-			</div>
-		</div>	
-		<div class="container">			
-			<div class="welcome">
-				<section class="slider">
-					<div class="flexslider">
-						<ul class="slides">
-							<li>
-								<img src="images/remera1.jpg" alt=" " /> 
-							</li>
-							<li>
-								<img src="images/remera3.jpg" alt=" " /> 
-							</li>
-							<li>
-								<img src="images/remera2.jpg" alt=" " /> 
-							</li>
-							
-						</ul>
-					</div>
-				</section>
-			</div>
-		</div>
-	</div>
 
 	<div class="banner-bottom">		
 		<div >
