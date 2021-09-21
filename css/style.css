@@ -1742,6 +1742,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 		min-height: 537px;
 	}
 }
+
 @media (max-width:480px){
 	.navbar-brand {
 		font-size: 2em;
@@ -1788,7 +1789,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 	}
 	.services-grid {
 		float: none;
-		width: 70%;
+		width: 100%;
 		margin: 0 auto 2em;
 	}
 	.services-grid:nth-child(2) {
@@ -1904,7 +1905,14 @@ a.list-group-item:hover, a.list-group-item:focus {
 	.contact-top {
 		margin-top: 4em;
 	}
+
+	.welcome-vermas{
+		left: 104px !important;  
+			
+	}
+
 }
+/*
 @media (max-width: 414px){
 	.services-grid {
 		float: none;
@@ -1964,7 +1972,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 		font-size: 1.2em;
 	}
 	.banner {
-		/*background: url(../images/banner.jpg) no-repeat -280px 0px;*/
+		/background: url(../images/banner.jpg) no-repeat -280px 0px;/
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -1973,6 +1981,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 		min-height: 400px;
 	}
 }
+
 @media (max-width:320px){
 	.banner-info h1 {
 		font-size: 1em;
@@ -1985,7 +1994,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 		margin: 12em 0 0;
 	}
 	.banner {
-		/*background: url(../images/banner.jpg) no-repeat -221px 0px;*/
+		//background: url(../images/banner.jpg) no-repeat -221px 0px;//
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -2215,3 +2224,4 @@ a.list-group-item:hover, a.list-group-item:focus {
 		font-size: 1.3em;
 	}
 }
+*/

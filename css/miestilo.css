@@ -10,7 +10,6 @@
 	line-height: 48px;
 	letter-spacing: 0.005em;
 	text-align: left;
-
 		
 }
 .texto_q{	 
@@ -207,7 +206,7 @@ ul.footer-enlinea li {
 /*--//footer--*/
 
 .welcome{
-    margin: 4em 0;
+    margin-top: 0.5rem;
 }
 .welcome p{
 	font-size: 14px;
@@ -274,5 +273,8 @@ ul.footer-enlinea li {
     width: 138px; 
     padding: 1em 1em;
     text-align: center;
+
+    left: 74px; 
+    position:absolute;
         
 }
