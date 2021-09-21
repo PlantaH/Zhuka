@@ -1468,7 +1468,7 @@ a.list-group-item:hover, a.list-group-item:focus {
 	}
 }
 
-@media (max-width:767px){
+@media (max-width:800px){
 	.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 		background: none;
 	}
