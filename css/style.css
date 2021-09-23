@@ -1,10 +1,4 @@
 
-html, body{
-    font-size: 100%;
-	background:	#fff;
-	font-family: 'Poppins', sans-serif;
-}
-
 p{
 	margin:0;
 }
@@ -22,116 +16,10 @@ body a:hover{
 	text-decoration:none;
 }
 
-.principal{
-	background-color:#F2F2F2; 	 
-	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-}
-/*banner*/
-.full_width_banner1{
-	 
-	background: url(../imagenes/packaging.jpg);	
-}
-
-.subtext_banner1{
-	position: absolute;
-	width: 280px;
-	height: 30px;
-	left: 18%;
-	top: calc(50% - 30px/2 - 93px);
-
-	/* Heading 3 */
-	font-family: 'Poppins' , sans-serif;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 20px;
-	line-height: 150%;
-	/* identical to box height, or 30px */
-
-	letter-spacing: 0.5px;
-
-	/* --c-gray */
-	color: #72757E;
-}
-.text_banner1{
-	/* Title */
-	position: absolute;
-	width: 600px;
-	height: 96px;
-	left: 20%;
-	top: calc(50% - 96px/2 - 22px);
-
-	/* Heading 1 */
-
-	font-family: 'Poppins' , sans-serif;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 32px;
-	line-height: 150%;
-	/* or 48px */
-
-	letter-spacing: 0.005em;
-
-	/* --c-text */
-
-	color: #1D1F22;
-}
-.link_banner1{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding: 16px 32px;
-
-	position: static;
-	width: 166px;
-	height: 61px;
-	left: 80px;
-	top: -4.5px;
-
-	/* turquesa */
-
-	background: #58E3E4;
-	border-radius: 5px;
-
-	/* Inside Auto Layout */
-
-	flex: none;
-	order: 0;
-	align-self: stretch;
-	flex-grow: 0;
-	margin:20px 0px;
-}
-.label_banner1{
-	/* Label */
-	position: static;
-	width: 102px;
-	height: 29px;
-	left: calc(50% - 102px/2);
-	top: calc(50% - 29px/2);
-
-	/* Button */
-
-	font-family: Poppins;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 16px;
-	line-height: 180%;
-	/* identical to box height, or 29px */
-
-	display: flex;
-	align-items: center;
-	text-align: center;
-	letter-spacing: 0.5px;
-	text-transform: uppercase;
-
-	/* Blanco */
-
-	color: #FFFFFF;
-}
-/*banner*/
 
 /*-- header-nav --*/
 .navbar-nav{
-	padding:1em 0 0;
+	padding:1em 0 0; 
 }
 .navbar-default {
     background: none;
@@ -139,7 +27,7 @@ body a:hover{
     margin: 0;
 }
 .navbar-default .navbar-nav > li > a {
-    color:#040006;
+    color:#697172;
     padding:25px 30px;
     font-size: 18px;
 	letter-spacing: 1px;
@@ -1505,11 +1393,20 @@ a.list-group-item:hover, a.list-group-item:focus {
 		margin: 1em 0 0;
 	}
 
-	#footerGr{
+	#footerGr, #bannerPrincipalGr{
 		display: none  !important;
 	}
 
 	#footerMo{
 		display: block !important;
 	}
+
+	#logoZhuka{
+		height:60px !important;
+	}
+
+	.nav{
+		background-color: #FFF !important;
+	}
+	 
 }   

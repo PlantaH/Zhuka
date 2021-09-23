@@ -1,12 +1,33 @@
 
+html, body{
+    font-size: 100%;
+	background:	#fff;
+	font-family: 'Poppins', sans-serif;
+}
+
+/****************************************/
+.menu{
+    background-color:#F2F2F2 !important;   
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.25); 
+}
+.nav-link{
+    color:#697172 !important;
+    padding:25px 30px !important;
+    font-size: 18px !important;
+	letter-spacing: 1px !important;    
+}
+.active  {
+	color: #58E3E4 !important;
+}
+
 /*titulos*/
 .titulo_q{
 	color: #040006;
 	 	 
 	font-family: 'Poppins' , sans-serif;
 	font-size: 32px;
-	font-style: normal;
-	font-weight: 700;
+	font-style:normal;
+	font-weight: bold;
 	line-height: 48px;
 	letter-spacing: 0.005em;
 	text-align: left;
@@ -17,10 +38,11 @@
 	font-family: 'Poppins' , sans-serif;
 	font-size: 18px;
 	font-style: normal;
-	font-weight: 600;
+	font-weight: 600px;
 	line-height: 32px;
-	letter-spacing: 0.5px;
+	letter-spacing: 1.5px;
 	text-align: left;
+    
 }
 
 .texto_co{	 
@@ -33,8 +55,18 @@
 }
 /*titulos*/
 
+.card-body{
+    background-color: #F2F2F2;
+}
+.btn{
+    border-color:#58E3E4;
+}
+.btn:hover{
+    border-color:#58E3E4;
+    background-color: #F2F2F2;
+    color: #040006;
+}
 /*-- contacto --*/
-
 .contact-top{
 	margin-top:2em;
 }
@@ -84,7 +116,7 @@
     font-family: 'Poppins' , sans-serif;
     font-size: 12px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 18px;
     letter-spacing: 0.005em;
     text-align: left;
@@ -241,7 +273,7 @@ ul.footer-enlinea li {
 	text-transform:capitalize;
 	font-size:1.1em;
 	color:#F5D8B3;
-    font-weight: 300;
+    font-weight: 300px;
     letter-spacing: 2px;
 	margin:0;
 }
@@ -267,12 +299,150 @@ ul.footer-enlinea li {
     font-size: 16px;    
 
     color: #FFFFFF;
+ 
+    padding: 1em 1em; 
 
-    width: 138px; 
-    padding: 1em 1em;
-    text-align: center;
-
-    left: 74px; 
+    
     position:absolute;
-        
+    margin-left: 34%;    
+} 
+
+/**************************************************/
+
+.principal{
+	background-color:#F2F2F2; 	 
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
 }
+/*banner*/
+.full_width_banner1{
+	 
+	background: url(../imagenes/packaging.jpg);	
+}
+
+.subtext_banner1{
+	position: absolute;
+	width: 280px;
+	height: 30px;
+	left: 18%;
+	top: calc(50% - 30px/2 - 93px);
+
+	/* Heading 3 */
+	font-family: 'Poppins' , sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 150%;
+	/* identical to box height, or 30px */
+
+	letter-spacing: 0.5px;
+
+	/* --c-gray */
+	color: #72757E;
+}
+.text_banner1{
+	/* Title */
+	position: absolute;
+	width: 600px;
+	height: 96px;
+	left: 18%;
+	top: calc(50% - 96px/2 - 22px);
+
+	/* Heading 1 */
+
+	font-family: 'Poppins' , sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 150%;
+	/* or 48px */
+
+	letter-spacing: 0.005em;
+
+	/* --c-text */
+
+	color: #1D1F22;
+}
+.link_banner1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 16px 32px;
+
+	position: static;
+	width: 166px;
+	height: 61px;
+	left: 80px;
+	top: -4.5px;
+
+	/* turquesa */
+
+	background: #58E3E4;
+	border-radius: 5px;
+
+	/* Inside Auto Layout */
+
+	flex: none;
+	order: 0;
+	align-self: stretch;
+	flex-grow: 0;
+	margin:20px 0px;
+}
+.label_banner1{
+	/* Label */
+	position: static;
+	width: 102px;
+	height: 29px;
+	left: calc(50% - 102px/2);
+	top: calc(50% - 29px/2);
+
+	/* Button */
+
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 180%;
+	/* identical to box height, or 29px */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+
+	/* Blanco */
+
+	color: #FFFFFF;
+}
+/*banner*/
+
+/****************/
+.about{
+	padding-top: 2rem; 
+	margin-left: 5rem;
+	margin-right: 5rem;
+}
+
+@media (max-width:767px){
+	
+	#footerGr, #bannerPrincipalGr, #textosBanners{
+		display: none  !important;
+	}
+
+	#footerMo{
+		display: block !important;
+	}
+
+	#logoZhuka{
+		height:60px !important;
+	}
+
+	.nav{
+		background-color: #FFF !important;
+	}
+
+	#remeraNosotros{
+		width:inherit;
+	}
+	 
+}   
