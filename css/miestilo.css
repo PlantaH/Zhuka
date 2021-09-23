@@ -408,6 +408,15 @@ ul.footer-enlinea li {
 
 	color: #FFFFFF;
 }
+
+.carousel-indicators .active{
+	background: #58E3E4 !important;
+	border-radius: 5px !important;
+}
+.carousel-indicators button{
+	background: #72757E !important;
+	border-radius: 4px !important;
+}
 /*banner*/
 
 /****************/
@@ -496,5 +505,10 @@ ul.footer-enlinea li {
 		  
 	}
 	/*banner*/
-	 
+	.titulo_q, .texto_q {
+		font-size: 12px;
+	} 
+	.welcome-vermas{
+		display: none;
+	}
 }   
