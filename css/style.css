@@ -315,8 +315,11 @@ body a:hover{
 /*-- //data-hover --*/
 
 /*-- banner-bottom --*/
+.banner-bottom{
+	margin-top: 6em;
+}
 .banner-bottom,.timings,.newsletter,.typo,.contact,.blog,.about,.team{
-	padding:0 0 0 0;
+	padding:0 0 0 0; 
 }
 .banner-bottom h3,.events h3,h3.title,.contact-main h3{
 	text-align:center;
