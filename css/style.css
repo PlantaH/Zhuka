@@ -28,8 +28,7 @@ body a:hover{
 }
 /*banner*/
 .full_width_banner1{
-	height: 586px;
-	width: 1240px;	 
+	 
 	background: url(../imagenes/packaging.jpg);	
 }
 
@@ -37,7 +36,7 @@ body a:hover{
 	position: absolute;
 	width: 280px;
 	height: 30px;
-	left: 80px;
+	left: 340px;
 	top: calc(50% - 30px/2 - 93px);
 
 	/* Heading 3 */
@@ -56,9 +55,9 @@ body a:hover{
 .text_banner1{
 	/* Title */
 	position: absolute;
-	width: 521px;
+	width: 600px;
 	height: 96px;
-	left: 80px;
+	left: 380px;
 	top: calc(50% - 96px/2 - 22px);
 
 	/* Heading 1 */
@@ -85,7 +84,7 @@ body a:hover{
 	position: static;
 	width: 166px;
 	height: 61px;
-	left: 0px;
+	left: 80px;
 	top: -4.5px;
 
 	/* turquesa */
