@@ -127,3 +127,21 @@ letter-spacing: 0.5px;
 color: #1D1F22;
 
 }
+
+.btn-consultar-producto{
+    background: #58E3E4;
+    border-radius: 5px;     
+    
+    font-family: 'Poppins' , sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;    
+
+    color: #FFFFFF;
+ 
+    padding: 1em 1em; 
+ 
+}
+.imagen-detalle{
+    height: 400px;
+}

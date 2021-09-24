@@ -16,3 +16,9 @@ const ocultarMensajeBanner = () => {
 const verMasCategoria = (m) =>{
     window.location = 'productos.html'
 }
+
+const verProducto = (m) =>{
+    window.location = 'detalle.html'
+}
+
+
