@@ -87,32 +87,53 @@
               
             <div class="col-12" >
               <div class="container-fluid">
-                  <div class="row">
+                  <div class="row" >
                     <div class="col-sm-12 col-md-5">
-                      <img src="imagenes/buzo_chicles.jpg" class="card-img-top imagen-detalle" alt="">
+                      <img src="imagenes/buzo_chicles.jpg" class="card-img-top detalle-imagen" alt="">
                     </div>
 
                     <div class="col-sm-12 col-md-7">
-                      <div class="card-body">
-                        <h5 class="card-title welcome-titulo">Buzo Chicle</h5>
-                        <span class="card-title welcome-precio">$999</span>
-                        <h5 class="card-title welcome-titulo">Colores</h5>
-                        <div>
-                          <div class="welcome-color1" style="display: inline-block;"></div>
-                          <div class="welcome-color2" style="display: inline-block;"></div>
-                          <div class="welcome-color3" style="display: inline-block;"></div>
-                          
+                      <div class="card-body" style="background-color: white !important;">
+                        <h5 class="card-title welcome-titulo detalle-titulo">Buzo Chicle</h5>
+                        <span class="card-title welcome-precio detalle-precio">$999</span>
+                        <div style="padding-top:2rem;"> 
+                          <h5 class="card-title welcome-titulo">Colores</h5>
+                          <div>
+                            <div class="welcome-color1" style="display: inline-block;"></div>
+                            <div class="welcome-color2" style="display: inline-block;"></div>
+                            <div class="welcome-color3" style="display: inline-block;"></div>
+                            
+                          </div>
                         </div>
-                        <h5 class="card-title welcome-titulo">Talles</h5>
-                        <div>
-                          <div class="welcome-color1" style="display: inline-block;"></div>
-                          <div class="welcome-color2" style="display: inline-block;"></div>
-                          <div class="welcome-color3" style="display: inline-block;"></div>
-                          
+                        <div style="padding-top:2rem;"> 
+                          <h5 class="card-title welcome-titulo">Talles</h5>
+                          <div>
+                            <div class="detalle-talle" style="display: inline-block;">S</div>
+                            <div class="detalle-talle" style="display: inline-block;">M</div>
+                            <div class="detalle-talle" style="display: inline-block;">L</div>
+                            <div class="detalle-talle" style="display: inline-block;">XL</div>
+                            <div class="detalle-talle" style="display: inline-block;">XXL</div>                          
+                          </div>
                         </div>
-                        <h5 class="card-title welcome-titulo">Ver tablas de talles</h5>
-                        <div class="btn btn-primary btn-consultar-producto">Consultar</div>
-                        
+                        <div style="padding-top:2rem;">
+                          <h5 class="card-title detalle-VerMas" data-bs-toggle="modal" data-bs-target="#exampleModal">Ver tablas de talles</h5>
+
+                          <!-- Modal -->
+                          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content"  style="background-color:transparent;">                                
+                                <div class="modal-body">
+                                  <img src="imagenes/tallesremeraadulto.jpg" width="800px" height="520px">
+                                </div>                                
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+
+                        <div style="padding-top:2rem; margin-left: 4rem;" >                         
+                         <div  class="btn btn-primary btn-consultar-producto">Consultar</div>                         
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -124,12 +145,31 @@
       </div>
 
       <div class="row" > 
+				<div class="col-12"  style="margin-left: 1rem;"> 
+          <nav class="nav">
+            <a class="nav-link active" aria-current="page" onclick="CambiarTexto(1)" id="divTituloComoComprar">¿Cómo comprar?</a>
+            <a class="nav-link" onclick="CambiarTexto(2)" id="divTituloEnvios">Envíos</a>
+            <a class="nav-link" onclick="CambiarTexto(3)" id="divTituloFormas">Formas de pago</a> 
+          </nav>
+        </div>        
+        <div class="col-12" style="margin-left: 4rem;" id="divComoComprar"> 
+            Envianos un Whatsapp indicando que diseño elegiste, prenda, talle y color. Nos mantendremos en contacto para la entrega.
+        </div> 
+        <div class="col-12" style="margin-left: 4rem;"  id="divEnvios"> 
+          Texto envios
+        </div> 
+        <div class="col-12" style="margin-left: 4rem;"  id="divFormas"> 
+          Texto formas
+        </div> 
+      </div>
+
+      <div class="row" style="padding-top:4rem;" > 
 				<div class="col-12"> 
           <div class="container-fluid">
             <div class="row ">
-            <div class="col-12"> 
-              <div class="titulo_q">Productos relacionados</div>
-            </div>
+              <div class="col-12"> 
+                <div class="titulo_q">Productos relacionados</div>
+              </div>
             </div>
           </div>
 
@@ -274,7 +314,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 
 <script src="./js/funciones.js"></script> 
-
+<script src="./js/detalle.js"></script> 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-RXBFH5P44B"></script>
 	<script>

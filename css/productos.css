@@ -145,3 +145,55 @@ color: #1D1F22;
 .imagen-detalle{
     height: 400px;
 }
+
+.detalle-titulo{
+   font-size: 3rem; 
+   font-weight: bold;
+   color:black;
+}
+.detalle-precio{
+    font-size: 4rem; 
+    font-weight: bold;
+    color:black;
+ }
+ .detalle-VerMas{
+    font-size: 1rem; 
+    cursor: pointer;	 
+ }
+
+ .detalle-talle{
+    border: 1px solid #58E3E4;    
+    width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	background: #FFFFFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+    margin:0px auto;
+    padding:1%
+}
+
+.detalle-talle:hover{    
+	background: #58E3E4;
+    cursor: pointer;	 
+}
+
+.detalle-imagen{
+    height: 600px;
+}
+
+#divTituloComoComprar,#divTituloEnvios, #divTituloFormas {
+    cursor: pointer;
+}
+#divComoComprar{
+    display: block;
+   
+}
+#divEnvios{
+    display: none;  
+}
+#divFormas{
+    display: none; 
+}
